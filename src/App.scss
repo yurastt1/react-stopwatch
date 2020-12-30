@@ -6,3 +6,25 @@
     margin-right: 10px;
   }
 }
+
+.stopwatch {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  &__watch {
+    font-size: 100px;
+  }
+
+  &__button {
+    height: 40px;
+    width: 100px;
+    background-color: white;
+  }
+
+  &__buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+}
