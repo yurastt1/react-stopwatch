@@ -79,7 +79,7 @@ class Stopwatch extends React.Component {
           <button
             className="stopwatch__button"
             type="button"
-            onClick={this.wait}
+            onDoubleClick={this.wait}
           >
             Wait
           </button>
